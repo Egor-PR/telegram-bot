@@ -47,3 +47,5 @@ transformers==4.52.4
 typing_extensions==4.14.0
 urllib3==2.4.0
 uvicorn==0.18.3
+scikit-learn==1.2.2
+
