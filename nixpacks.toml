@@ -1,0 +1,17 @@
+[phases.setup]
+commands = []
+
+[phases.install]
+commands = [
+  "python3.11 -m venv /opt/venv",
+  "/opt/venv/bin/pip install --upgrade pip setuptools wheel",
+  "/opt/venv/bin/pip install -r requirements.txt"
+]
+
+[phases.start]
+commands = [
+  "/opt/venv/bin/python bot.py"
+]
+
+[python]
+version = "3.11"
