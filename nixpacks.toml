@@ -10,7 +10,7 @@ commands = [
 
 [phases.start]
 commands = [
-  "/opt/venv/bin/python3 bot.py"
+  "/opt/venv/bin/python bot.py"
 ]
 
 [python]
